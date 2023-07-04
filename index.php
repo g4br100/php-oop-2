@@ -16,6 +16,8 @@ $prodotto2-> setCategories(['Cane']);
 $prodotto2-> setProductImg('prodotto.png');
 $prodotto2-> setDescription('Croccantini fantastici!');
 
+
+
 $productsArray['prodotto2'] = $prodotto2;
 
 var_dump($productsArray)

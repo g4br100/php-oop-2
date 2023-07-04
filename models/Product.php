@@ -4,13 +4,14 @@ class Product {
 
     public $productName;
     public $productPrice;
-    public $categories; 
+    public $categories; # Cane/Gatto
     public $productImage ;
 
     function __construct($_productName){
         $this->productName   = $_productName;
     }
 
+    #SETTER
     public function setPrice($_price){
         $this->productPrice = $_price;
     }
@@ -23,6 +24,7 @@ class Product {
         $this->productImage = $_img;
     }
 
+    #GETTER
     public function getPrice(){
         return $this->productPrice;
     }
